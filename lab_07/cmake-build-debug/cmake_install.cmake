@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/s22204/CLionProjects/NAI/lab_03
+# Install script for directory: C:/Users/s22204/CLionProjects/NAI/lab_07
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/lab_03")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/ocvdemo")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/s22204/CLionProjects/NAI/lab_03/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/s22204/CLionProjects/NAI/lab_07/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
